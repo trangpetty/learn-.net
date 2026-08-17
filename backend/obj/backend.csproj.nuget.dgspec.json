@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\le_thithuytrang\\RiderProjects\\finshark\\backend\\backend.csproj": {}
+    "/Users/trang/Projects/learn .net/backend/backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\le_thithuytrang\\RiderProjects\\finshark\\backend\\backend.csproj": {
+    "/Users/trang/Projects/learn .net/backend/backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\le_thithuytrang\\RiderProjects\\finshark\\backend\\backend.csproj",
+        "projectUniqueName": "/Users/trang/Projects/learn .net/backend/backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\le_thithuytrang\\RiderProjects\\finshark\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\le_thithuytrang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\le_thithuytrang\\RiderProjects\\finshark\\backend\\obj\\",
+        "projectPath": "/Users/trang/Projects/learn .net/backend/backend.csproj",
+        "packagesPath": "/Users/trang/.nuget/packages/",
+        "outputPath": "/Users/trang/Projects/learn .net/backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\le_thithuytrang\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/trang/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -39,13 +39,25 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.10, )"
@@ -88,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/Users/trang/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
